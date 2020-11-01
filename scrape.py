@@ -2,7 +2,13 @@ import requests
 from termcolor import colored
 from bs4 import BeautifulSoup
 import pprint
+from tqdm import tqdm
 
+print(colored('[+]Loading Stories Now.......', 'green', attrs=['bold']))
+
+for i in tqdm(range(10)):
+	time.sleep(0.1)
+	os.system('clear')
 
 res = requests.get('https://news.ycombinator.com/news')
 res2 = requests.get('https://news.ycombinator.com/news')
