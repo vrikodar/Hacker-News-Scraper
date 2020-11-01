@@ -3,12 +3,15 @@ from termcolor import colored
 from bs4 import BeautifulSoup
 import pprint
 from tqdm import tqdm
-
-print(colored('[+]Loading Stories Now.......', 'green', attrs=['bold']))
+import time
+import os
 
 for i in tqdm(range(10)):
 	time.sleep(0.1)
-	os.system('clear')
+time.sleep(2)
+os.system('clear')
+
+print(colored('[+]Loading Stories Now.......', 'green', attrs=['bold']))
 
 res = requests.get('https://news.ycombinator.com/news')
 res2 = requests.get('https://news.ycombinator.com/news')
