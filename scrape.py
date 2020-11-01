@@ -14,7 +14,7 @@ os.system('clear')
 print(colored('[+]Loading Stories Now.......', 'green', attrs=['bold']))
 
 res = requests.get('https://news.ycombinator.com/news')
-res2 = requests.get('https://news.ycombinator.com/news')
+res2 = requests.get('https://news.ycombinator.com/news?p=2')
 # print(colored(res.text, 'green'))
 
 soup = BeautifulSoup(res.text, 'html.parser')
