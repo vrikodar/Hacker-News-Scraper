@@ -5,12 +5,7 @@ The Python Script scrape.py in this repositery Allows you to Veiw topstories on 
 
 The Code shows You Only Stories which have Received Votes More Than 50
 
-REQUIREMENTS :)
-1.Python3
-2.Requests
-3.BeautifulSoup
-4.pprint
-5.pip3 or pip
 
 Run The install.sh script to Install all required dependencies or install them using pip
+On windows Run the install.py file to install the required dpendencies..
 
