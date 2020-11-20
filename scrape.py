@@ -1,3 +1,7 @@
+ 
+#By SxNade
+#https://github.com/SxNade
+
 import requests
 from termcolor import colored
 from bs4 import BeautifulSoup
@@ -5,6 +9,8 @@ import pprint
 from tqdm import tqdm
 import time
 import os
+
+#tqdm for a little animation of loading..
 
 for i in tqdm(range(10)):
 	time.sleep(0.1)
@@ -28,6 +34,7 @@ subtext2 = soup2.select('.subtext')
 mega_links = links + links2
 mega_subtext = subtext + subtext2
 
+#function which sorts stories according to the number of votes
 def sort_stories_by_votes(hnlist):
     return sorted(hnlist, key= lambda k:k['votes'], reverse=True)
 
@@ -43,5 +50,5 @@ def create_custom_hn(links, subtext):
                 hn.append({'title': title, 'link': href, 'votes': points})
     return sort_stories_by_votes(hn)
 
-
+#print statement to print the stories in the Terminal
 pprint.pprint(create_custom_hn(mega_links, mega_subtext))
