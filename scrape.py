@@ -1,6 +1,5 @@
- 
 #By SxNade
-#https://github.com/SxNade
+#https://github.com/SxNade/Hacker-News-Scraper
 
 import requests
 from termcolor import colored
