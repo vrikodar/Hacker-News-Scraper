@@ -14,6 +14,8 @@ Get A list of all Stories on Hacker News Right in your terminal with one command
 
 `The Code shows You Only Stories which have Received Votes More Than 50`
 
+![Capture](https://github.com/SxNade/Hacker-News-Scraper/blob/main/hn.gif)
+
 # RUNNING AND INSTALLING
 
 `1 chmod +x install.sh`
