@@ -17,8 +17,12 @@ hn = '''
 |_| |_|_| \_|    |____/ \____|_| \_\/_/   \_\_|   |_____|_| \_\
                             
 			    *By SxNade https://github.com/SxNade
+
 '''
+
 print(hn)
+print("\n (v1.1) starting...")
+time.sleep(2)
 
 #tqdm for a little animation of loading..
 
