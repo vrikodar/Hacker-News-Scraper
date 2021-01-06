@@ -21,7 +21,7 @@ hn = '''
 '''
 
 print(hn)
-print("\n (v1.1) starting...")
+print("\n (v1.1) starting...\n")
 time.sleep(2)
 
 #tqdm for a little animation of loading..
